@@ -1,0 +1,536 @@
+/* Global styles */
+body {
+  font-size: 12pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  max-width: 769px;
+  width: 100%;
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center;
+  padding-top: 5px;
+}
+
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place the background behind the content */
+  background-image: url(/assets/Pie.png.png);
+  background-repeat: repeat-y;
+  background-position: center top; /* Adjust as needed */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+  
+  /* ------------------------Header----------------------------- */
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    min-height: fit-content;
+    background-color: #fe9ad8;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px; /* Move padding here */
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .logo {
+    width: 30%;
+    min-width: 300px;
+    color: #ffffff;
+    padding-top: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+  
+  a {
+    color: black;
+    padding-bottom: 3px;
+    text-decoration-style: none;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 16pt;
+    margin: 2px;
+  }
+  
+  a:hover {
+    background-color: #90d0f6;
+    border-radius: 5px;
+  }
+  
+  .selected {
+    background-color: #90d0f6;
+    border-radius: 5px;
+  }
+  
+  /* ------------------------Main----------------------------- */
+  main {
+    width: 100%;
+    margin: 20px auto; /* Center the main content horizontally and add top margin */
+    border-radius: 5px;
+  }
+  
+  main p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  h1{
+    padding-top:20px;
+  }
+  
+
+  /*intro section*/
+
+  /* Style for the acute introductory section */
+.acute-section {
+    padding: 10px;
+    background-color: #90d0f6;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .acute-section h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .acute-section p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .container img {
+    max-width: 90%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  /* Style for the app download section */
+.app-section {
+    padding: 80px 0;
+    background-color: #fe9ad8;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .app-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .app-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .app-download-button .download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #90d0f6;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .app-download-button .download-button:hover {
+    background-color:#FF66c4;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  
+  /* ----------------------About us------------------ */
+
+  .about-section{
+    background-color: #fe9ad8;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inlineDiv {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .divBox {
+    flex-basis: 30%; 
+    text-align: center;
+    background-color: #90d0f6;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .divBox img {
+    max-width: 80%;
+    height: auto;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .divBox p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .divBox a:visited {
+  color:#ffffff;
+  }
+
+  .lnLogo {
+    display: flex;
+    width: 50%;
+    max-width: 300px;
+    margin:auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+  /* ------------------------Events Section--------------------- */
+
+  .events-section {
+    padding: 80px 0;
+    background-color: #FF66c4;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .events-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .events-content h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .events-slideshow {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .events-slideshow img {
+    width: 100%;
+    max-height: 270px;
+    display: none;
+    margin: auto;
+  }
+  
+  .events-slideshow img.active {
+    display: block;
+  }
+  
+  .events-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* ------------------------Feedback.html----------------------------- */
+
+  .feedback-section {
+    background-color: #90d0f6;
+    text-align: center;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .feedback-section img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feedback-form label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .feedback-form input[type="text"],
+  .feedback-form input[type="email"],
+  .feedback-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+  }
+  
+  .feedback-form input[type="checkbox"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form button[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #90d0f6;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feedback-form button[type="submit"]:hover {
+    background-color: #FF66c4;
+  }
+
+  /* Style for the contact section */
+.contact-section {
+  padding: 10px;
+  background-color:#FF66c4;
+  text-align: center;
+  border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.contact-details {
+  flex-basis: 50%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.contact-map {
+  flex-basis: 40%;
+}
+
+.contact-map img {
+  max-width: 100%;
+  height: auto;
+  border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+  
+  
+  /* ------------------------Footer----------------------------- */
+  
+  footer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #90d0f6; /* Optional: Add a background color */
+    border-radius: 5px;
+  }
+  
+  .footer-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; /* Add spacing between the text and links */
+  }
+  
+  .footer-links {
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-links p {
+    align-self: center;
+  }
+  
+  .footer-links a {
+    font-size: 14px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0069E0; /* Optional: Customize link color */
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    .navbar {
+      margin-top: 10px; /* Add some spacing between header elements */
+    }
+  
+    main {
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .acute-section {
+        padding: 40px 0;
+      }
+      
+      .acute-section h1 {
+        font-size: 28px;
+      }
+      
+      .acute-section p {
+        font-size: 16px;
+      }
+
+    .app-content {
+        padding: 0 20px;
+      }
+
+    .divBox {
+        flex-basis: 100%; /* Full width when the screen size is reduced */
+        margin-bottom: 20px; /* Add some spacing between stacked boxes */
+    }
+
+    .lnLogo {
+      flex-basis: 20%;
+  
+    }
+  
+    footer {
+      flex-direction: column;
+    }
+
+    .events-content {
+        padding: 0 20px;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact-details,
+      .contact-map {
+        flex-basis: 100%;
+      }
+    
+      .contact-details {
+        text-align: center;
+        padding: 20px;
+      }
+  }
+  
