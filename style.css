@@ -141,12 +141,16 @@ body {
   }
 
   /* Styling for the Wellbeing Festival Announcement */
-.wellbeing-festival {
-  background-color: #90D0F6;
-  color: #000;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+  .wellbeing-festival {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+    background-color: #90D0F6;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 .wellbeing-festival h2 {
@@ -156,7 +160,6 @@ body {
 }
 
 .wellbeing-festival ul {
-  align-content: center;
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 20px;
