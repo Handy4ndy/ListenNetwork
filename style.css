@@ -171,7 +171,14 @@ body {
   font-weight: bold;
 }
 
-  
+.wellbeing-festival img {
+    max-width: 90%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+} 
 
   /* Style for the app download section */
 .app-section {
