@@ -144,6 +144,34 @@ body {
     border-width: 1px;
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
   }
+
+  /* Styling for the Wellbeing Festival Announcement */
+.wellbeing-festival {
+  background-color: #90D0F6;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.wellbeing-festival h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.wellbeing-festival ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.wellbeing-festival p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
   
 
   /* Style for the app download section */
