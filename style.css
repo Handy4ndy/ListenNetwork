@@ -99,11 +99,6 @@ body {
     margin-left: 5%;
     margin-right: 5%;
   }
-  
-  h1{
-    padding-top:20px;
-  }
-  
 
   /*intro section*/
 
@@ -128,7 +123,7 @@ body {
   .acute-section p {
     font-size: 18px;
     color: black;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .container {
@@ -161,6 +156,7 @@ body {
 }
 
 .wellbeing-festival ul {
+  align-content: center;
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 20px;
@@ -528,7 +524,7 @@ body {
     }
 
     .acute-section {
-        padding: 40px 0;
+        padding: 5px;
       }
       
       .acute-section h1 {
