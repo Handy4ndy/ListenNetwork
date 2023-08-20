@@ -86,8 +86,9 @@ body {
 
 /* --------------Main----------------- */  
 main {
+  padding-top: 10px;
   margin: 20px auto;
-  width: 100%;
+  width: 90%;
   border-radius: 5px;
 }
 
@@ -110,7 +111,6 @@ main {
   border-radius: 5px;
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  width: 90%;
   text-align: center;
 }
 
@@ -157,7 +157,6 @@ main {
   border-radius: 5px;
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  width: 90%;
   text-align: center;
 }
 
@@ -201,7 +200,6 @@ main {
   border-radius: 5px;
   box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  width: 90%;
   text-align: center;
 }
 
