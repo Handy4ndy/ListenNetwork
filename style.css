@@ -573,8 +573,12 @@ body {
         padding: 20px;
       }
 
+      .googleDoc{
+        height: 3000px;
+      }
+      
       .feedback-section {
-        height: 2700px; /* Allow the height to adjust based on content */
+        height: 3000px; /* Allow the height to adjust based on content */
       }
   }
   
