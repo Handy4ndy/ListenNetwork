@@ -87,7 +87,8 @@ body {
 /* --------------Main----------------- */  
 main {
   padding-top: 10px;
-  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 90%;
   border-radius: 5px;
 }
