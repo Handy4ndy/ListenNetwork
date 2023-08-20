@@ -498,6 +498,12 @@ main {
         padding: 0 20px;
       }
 
+      .social-media-item {
+        flex-direction: column;
+        flex-basis: 80%;
+        margin: 0 auto;
+      }
+
     .divBox {
         flex-basis: 100%; /* Full width when the screen size is reduced */
         margin-bottom: 20px; /* Add some spacing between stacked boxes */
