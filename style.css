@@ -83,150 +83,131 @@ body {
     background-color: #90d0f6;
     border-radius: 5px;
   }
-  
-  /* ------------------------Main----------------------------- */
-  main {
-    width: 100%;
-    margin: 20px auto; 
-    border-radius: 5px;
-  }
-  
-  main p {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+  /* Global styles */
+main {
+  margin: 20px auto;
+  width: 100%;
+  border-radius: 5px;
+}
 
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
 
-  .container img {
-    max-width: 90%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-  }
+.container img {
+  max-width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+}
 
-
-
- /* --------------------Index acute section style------------------- */
+/* --------------Acute Section----------------- */
 .acute-section {
-    padding: 10px;
-    background-color: #90d0f6;
-    text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .acute-section h1 {
-    font-size: 36px;
-    color: black;
-    margin-bottom: 10px;
-  }
-  
-  /* --------------------Index festival style------------------- */
-  .wellbeing-festival {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #90D0F6;
-    color: #000;
-    padding: 20px;
-    border-radius: 10px;
+  background-color: #90d0f6;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+
+.acute-section h1 {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* ------------------Wellbeing Festival------------------------- */
+.wellbeing-festival {
+  align-items: center;
+  background-color: #90D0F6;
+  border-radius: 10px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 .wellbeing-festival ul {
-  list-style-type: disc;
   list-style-position: inside;
+  list-style-type: disc;
   margin: auto;
   margin-top: 10px;
 }
 
 .wellbeing-festival p {
-  margin-top: 10px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .wellbeing-festival img {
-    max-width: 90%;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-} 
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+}
 
-/* --------------------Index App style------------------- */
+/* -------------App Section--------------- */
 .app-section {
-    padding: 10px;
-    background-color: #fe9ad8;
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 1px;
-    text-align: center;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .app-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .app-content h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .app-content p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .app-download-button .download-button {
-    display: inline-block;
-    padding: 15px 30px;
-    font-size: 18px;
-    background-color: #90d0f6;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .app-download-button .download-button:hover {
-    background-color:#FF66c4;
-  }
-  
-  
-  /* ------------------------Social Section--------------------- */
+  background-color: #fe9ad8;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+}
 
-  .social-section {
-    padding: 10px ;
-    background-color: #FF66c4;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
-    
-  }
-  
-  .events-content h2 {
-    font-size: 28px;
-    color: black;
-    margin-bottom: 10px;
-  }
+.app-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.app-content h2 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.app-content p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.app-download-button .download-button {
+  background-color: #90d0f6;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.app-download-button .download-button:hover {
+  background-color: #FF66c4;
+}
+
+/* --------------Social Section--------------- */
+.social-section {
+  background-color: #FF66c4;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+
+.social-section h2 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
   
   /* ----------------------About us------------------ */
 
