@@ -304,7 +304,6 @@ body {
   }
   
   .events-content {
-    max-width: 800px;
     margin: 0 auto;
   }
   
@@ -556,9 +555,7 @@ body {
       flex-direction: column;
     }
 
-    .events-content {
-        padding: 0 20px;
-      }
+    
 
       .contact-info {
         flex-direction: column;
