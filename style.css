@@ -333,12 +333,16 @@ main {
     box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.2);
   }
   
-  .googleDoc {
-    width: 100%; 
-    max-width: 100%; 
-    height: auto; 
+  .googleDoc-container {
+    max-width: 100%;
+    overflow: auto; /* Add scrollbar if content overflows */
+    height: 2700px; /* Set a fixed height or adjust as needed */
   }
-
+  
+  .googleDoc {
+    width: 100%;
+    height: 100%;
+  }
 
   /* Style for the contact section */
 .contact-section {
