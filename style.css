@@ -574,7 +574,7 @@ body {
       }
 
       .feedback-section {
-        height: auto; /* Allow the height to adjust based on content */
+        height: 2700px; /* Allow the height to adjust based on content */
       }
   }
   
