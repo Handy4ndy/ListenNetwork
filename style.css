@@ -131,9 +131,9 @@ main {
 }
 
 .wellbeing-festival ul {
-  list-style-type: disc;
-  margin: auto;
-  margin-top: 10px;
+  text-align: center;
+  padding: 0;
+  list-style-position: inside;
 }
 
 .wellbeing-festival p {
